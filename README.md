@@ -1,5 +1,6 @@
 # AWS Lambda and Amazon Lex Shopping Bot Demo 1
 Amazon Lambda function, implemented on Java, for AWS Lex bot. 
+
 Demo project for the introduction video tutorial: https://youtu.be/cy9GX33nuKM
 
 Amazon Lex allows to build conversation bots and integrate them to Facebook Messenger, Slack or Twilio:
@@ -9,7 +10,7 @@ AWS Lambda a set of functions and components, which can be implemented on differ
 https://aws.amazon.com/lambda/
 
 AWS Services console:
-console.aws.amazon.com
+https://console.aws.amazon.com/
 
 Amazon Lex Developer Guide:
 https://aws.amazon.com/documentation/lex/
@@ -18,11 +19,13 @@ AWS Lambda Developer Guide:
 https://aws.amazon.com/documentation/lambda/
 
 Example of AWS Lambda function implemented on Java 8:
-https://github.com/satr/aws-amazon-shopping-bot-lambda-func
+https://github.com/satr/aws-amazon-shopping-bot-lambda-func/
 
 Java SDK:
+```
 com.amazonaws:aws-lambda-java-core
 com.amazonaws:aws-java-sdk-lambda
+```
 
 JSON request example:
 ```
