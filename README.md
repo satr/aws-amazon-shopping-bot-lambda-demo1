@@ -25,6 +25,7 @@ com.amazonaws:aws-lambda-java-core
 com.amazonaws:aws-java-sdk-lambda
 
 JSON request example:
+```
 {
   "bot": {
     "alias": "null",
@@ -41,8 +42,9 @@ JSON request example:
     }
   }
 }
-
+```
 NodeJS Lambda function example for the request above:
+```
 exports.handler = (event, context, callback) => {
     var product = event.currentIntent.slots.BakeryProduct;
     var amount = event.currentIntent.slots.Amount;
@@ -58,5 +60,5 @@ exports.handler = (event, context, callback) => {
                       }
                     });
 };
-
+```
 
