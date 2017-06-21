@@ -1,4 +1,4 @@
-# aws-amazon-shopping-bot-lambda-demo1
+# AWS Lambda and Amazon Lex Shopping Bot Demo 1
 Amazon Lambda function, implemented on Java, for AWS Lex bot. 
 Demo project for the introduction video tutorial: https://youtu.be/cy9GX33nuKM
 
