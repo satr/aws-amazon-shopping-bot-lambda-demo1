@@ -9,6 +9,7 @@ public class ShoppingBotLambda implements RequestHandler<Map<String, Object>, Ob
 
     @Override
     public Object handleRequest(Map<String, Object> input, Context context) {
+
         LexRequest lexRequest = LexRequestFactory.createLexRequest(input);
         String content = String.format("Request came from the bot: %s, Department: %s;" +
                                         "You ordered: %s %s of %s",
